@@ -3,6 +3,7 @@ import BottomBar from "./components/BottomBar/BottomBar";
 import HeaderBar from "./components/HeaderBar/HeaderBar";
 import Login from "./components/Login/Login";
 import "./App.css";
+import Register from "./components/Register/Register";
 
 export default function App() {
   return (
@@ -10,7 +11,8 @@ export default function App() {
       <div className="foo">
         <HeaderBar />
         <BottomBar />
-        <Login />
+        {/* <Login /> */}
+        <Register />
       </div>
     </div>
   );
