@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 html,
 body {
   display: grid;
@@ -12,7 +14,7 @@ body {
 }
 
 .loginForm {
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", cursive;
   width: 100%;
   background-color: #fff;
   /* background-color: rgb(203, 179, 223); */
@@ -43,6 +45,7 @@ body {
 }
 
 .loginForm form .row input {
+  font-family: "Poppins", cursive;
   height: 100%;
   width: 100%;
   outline: none;
@@ -54,11 +57,11 @@ body {
   color: #fff;
   margin-left: 0px;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 form .row input::placeholder {
-  color: #fff;
+  color: black;
 }
 
 form .row input:focus {
@@ -81,7 +84,7 @@ form .row input:focus {
 }
 
 .loginForm form .pass {
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", cursive;
   margin: -8px 0 20px 0;
 }
 

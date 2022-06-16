@@ -15,13 +15,13 @@ export default function Login() {
             <i>
               <FontAwesomeIcon icon={faEnvelope} />
             </i>
-            <input type="text" placeholder="Email" required></input>
+            <input type="text" placeholder="E-mail..." required></input>
           </div>
           <div className="row">
             <i>
               <FontAwesomeIcon icon={faKey} />
             </i>
-            <input type="password" placeholder="Haslo" required></input>
+            <input type="password" placeholder="Hasło..." required></input>
           </div>
           <div className="pass">
             <a href="#">Zapomniałeś hasła?</a>
@@ -32,7 +32,7 @@ export default function Login() {
           <div className="signup-link">
             {" "}
             Nie masz konta?
-            <a href="#"> Zarejestruj się!</a>
+            <a href="/register"> Zarejestruj się!</a>
           </div>
         </form>
       </div>
